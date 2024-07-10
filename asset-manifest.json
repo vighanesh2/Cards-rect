@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Cards-rect/static/css/main.541f92f8.css",
+    "main.js": "/Cards-rect/static/js/main.6790b14f.js",
+    "static/js/453.f4186dad.chunk.js": "/Cards-rect/static/js/453.f4186dad.chunk.js",
+    "static/media/birth back.jpg": "/Cards-rect/static/media/birth back.c7f38e7b5e59ced7d578.jpg",
+    "static/media/backi.png": "/Cards-rect/static/media/backi.01985b43c5040ed4aaa1.png",
+    "static/media/vid3.mp4": "/Cards-rect/static/media/vid3.c0e65555aa924e441413.mp4",
+    "static/media/back.png": "/Cards-rect/static/media/back.4ea90bdeab2e7eb841fb.png",
+    "static/media/vid2.mp4": "/Cards-rect/static/media/vid2.16e1d7b311c1ee73b201.mp4",
+    "static/media/back2.png": "/Cards-rect/static/media/back2.2ea0f0d6c10c42f9effb.png",
+    "static/media/christback.jpg": "/Cards-rect/static/media/christback.78257cab78351403c6a0.jpg",
+    "static/media/Card2.png": "/Cards-rect/static/media/Card2.0522ed8fdfbfef8db600.png",
+    "static/media/letter1.png": "/Cards-rect/static/media/letter1.e4a87f78d19c13fb4814.png",
+    "static/media/card1.png": "/Cards-rect/static/media/card1.f52a3011aa30c6f6460e.png",
+    "static/media/Card3.png": "/Cards-rect/static/media/Card3.194d659ba59be24d6315.png",
+    "static/media/letter4.png": "/Cards-rect/static/media/letter4.dd10623553f18c8a1907.png",
+    "static/media/card4.png": "/Cards-rect/static/media/card4.08fdee68ce0761c4d5a8.png",
+    "static/media/letter222.png": "/Cards-rect/static/media/letter222.21314c77591409106cc0.png",
+    "static/media/letter3.png": "/Cards-rect/static/media/letter3.462b46d5f021863e583e.png",
+    "static/media/christmas-tree.png": "/Cards-rect/static/media/christmas-tree.2e4cf273ac300a70d3ea.png",
+    "static/media/birthday-cake.png": "/Cards-rect/static/media/birthday-cake.85881dd3370a0848e2d4.png",
+    "static/media/happy-new-year.png": "/Cards-rect/static/media/happy-new-year.d4cf7899639ae712bc84.png",
+    "index.html": "/Cards-rect/index.html",
+    "main.541f92f8.css.map": "/Cards-rect/static/css/main.541f92f8.css.map",
+    "main.6790b14f.js.map": "/Cards-rect/static/js/main.6790b14f.js.map",
+    "453.f4186dad.chunk.js.map": "/Cards-rect/static/js/453.f4186dad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.541f92f8.css",
+    "static/js/main.6790b14f.js"
+  ]
+}
