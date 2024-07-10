@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cards-rect/static/css/main.541f92f8.css",
-    "main.js": "/Cards-rect/static/js/main.6790b14f.js",
+    "main.js": "/Cards-rect/static/js/main.c7c68156.js",
     "static/js/453.f4186dad.chunk.js": "/Cards-rect/static/js/453.f4186dad.chunk.js",
     "static/media/birth back.jpg": "/Cards-rect/static/media/birth back.c7f38e7b5e59ced7d578.jpg",
     "static/media/backi.png": "/Cards-rect/static/media/backi.01985b43c5040ed4aaa1.png",
@@ -23,11 +23,11 @@
     "static/media/happy-new-year.png": "/Cards-rect/static/media/happy-new-year.d4cf7899639ae712bc84.png",
     "index.html": "/Cards-rect/index.html",
     "main.541f92f8.css.map": "/Cards-rect/static/css/main.541f92f8.css.map",
-    "main.6790b14f.js.map": "/Cards-rect/static/js/main.6790b14f.js.map",
+    "main.c7c68156.js.map": "/Cards-rect/static/js/main.c7c68156.js.map",
     "453.f4186dad.chunk.js.map": "/Cards-rect/static/js/453.f4186dad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.541f92f8.css",
-    "static/js/main.6790b14f.js"
+    "static/js/main.c7c68156.js"
   ]
 }
