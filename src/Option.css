@@ -1,0 +1,53 @@
+.content1{
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    background-image: url('./assets/back2.png');
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    display: flex;
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffffff;
+}
+.text2{
+    margin-bottom: 50px;
+    margin-top: 20%;
+  }
+  .option1, .option2, .option3, .option4 {
+    position: relative;
+    transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the border and shadow */
+    border-radius: 10px; /* Adjust the radius as needed */
+    padding: 10px; /* Inner margin */
+    overflow: hidden;
+  }
+  
+  .option1:hover, .option2:hover, .option3:hover, .option4:hover {
+    border: 2px solid white; /* White border on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Smooth shadow effect */
+  }
+  .options a {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .options h2 {
+    color: white; /* Set text color to white */
+  }
+  .options{
+    display: flex;
+  }
+  .content2 {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }

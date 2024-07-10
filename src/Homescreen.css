@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.homescreen{
+  width: 100%;
+  height: 100vh; /* Adjust based on your needs */
+  overflow: hidden;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+}
+
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.homescreen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+
+}
+
+.text{
+  margin-top: 20%;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.content2 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.options{
+  display: flex;
+}
+.content h1 {
+  font-size: 3em;
+}
+.icons{
+  width: 20%;
+  filter: invert(100%) brightness(200%);
+
+ 
+}
+.content p {
+  font-size: 1.5em;
+}
+
+.enter-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Circular radius */
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.enter-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.bottom-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: underline #cccccc; /* Initial underline color */
+  transition: box-shadow 0.3s, opacity 0.3s; /* Smooth transition for box-shadow and opacity */
+  padding: 8px 16px; /* Adjust padding for button size */
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bottom-button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Add a subtle white glow on hover */
+  opacity: 0.9; /* Reduce opacity slightly on hover */
+}
+
+
+.continue-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Circular radius */
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.continue-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+.text2{
+  margin-bottom: 50px;
+  margin-top: 20%;
+}
+.option1, .option2, .option3, .option4 {
+  position: relative;
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the border and shadow */
+  border-radius: 10px; /* Adjust the radius as needed */
+  padding: 10px; /* Inner margin */
+  overflow: hidden;
+}
+
+.option1:hover, .option2:hover, .option3:hover, .option4:hover {
+  border: 2px solid white; /* White border on hover */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Smooth shadow effect */
+}
+.options a {
+  text-decoration: none; /* Remove underline */
+}
+
+.options h2 {
+  color: white; /* Set text color to white */
+}
+
+.options .option1,
+.options .option2 {
+  color: white; /* Ensure the text inside these divs is white */
+}
